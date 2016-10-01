@@ -1,2 +1,5 @@
 # Folder view configuration files
 .DS_Store
+
+hw0/ans*
+hw1/data*

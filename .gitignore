@@ -2,6 +2,8 @@
 .DS_Store
 
 hw0/ans*
-hw1/data*
-hw1/outputs*
-hw1/models*
+
+hw1/data.zip
+# hw1/data*
+# hw1/outputs*
+# hw1/models*

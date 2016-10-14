@@ -146,7 +146,7 @@ while True:
         np.savez(MODEL_FOLDER + model_file_info, b=b, w=w, vb=vb, vw=vw, lr=lr, total_epoch=total_epoch)
 
         # stop training in some cases
-        if loss < 6:
+        if loss < 5.9:
             break
 
     # update parameters

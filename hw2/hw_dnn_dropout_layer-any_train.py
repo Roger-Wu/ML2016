@@ -13,7 +13,7 @@ import sys
 TRAIN_FILE_PATH = sys.argv[1]
 MODEL_FILE_PATH = sys.argv[2]  # output model
 
-EPOCH = 20000
+EPOCH = 30000
 
 train_data = pd.read_csv(TRAIN_FILE_PATH, header=None)
 

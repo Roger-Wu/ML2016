@@ -1,0 +1,1 @@
+python3 hw_cnn_self-training_test.py $1 $2 $3

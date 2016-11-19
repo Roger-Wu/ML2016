@@ -1,0 +1,108 @@
+## model 1
+
+model
+	batch_size = 64
+	epo=100
+result
+	acc=0.96
+	test=0.2343
+
+
+## model 2
+
+model
+	batch_size = 32
+	epo=100
+result
+	acc=0.965
+	test=0.235
+
+
+vvvvvvvvvvvvvvvvvvvvvvvvvv
+## model 3
+
+model
+	32 3 3
+	64 3 3
+	512
+result
+	acc=0.96
+	test=0.245
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+## model 4
+
+model
+	32 3 3
+	32 3 3
+	512
+result
+	acc=0.955
+	test=0.24
+
+
+## model 5
+
+model
+	32 3 3
+	64 3 3
+	64 3 3
+	512
+result
+	acc=0.94
+	test=0.216
+comment
+	overfit
+
+## model 6
+
+model
+	32 3 3
+	32 3 3
+	64 3 3
+	512
+result
+	acc=0.96
+	test=0.23
+comment
+	overfit
+
+
+
+
+
+# from model 3
+
+## model 3: 256
+
+model
+	32 3 3
+	64 3 3
+	256
+result
+	acc=0.9282
+	test=0.245
+
+
+## model 3: 256 256
+
+model
+	32 3 3
+	64 3 3
+	256
+	256
+result
+	acc=0.89
+	test=0.20
+
+
+##
+
+model
+	64 5 5
+	64 3 3
+	256
+result
+	acc=0.93
+	test=0.23

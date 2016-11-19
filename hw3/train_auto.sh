@@ -1,0 +1,1 @@
+python3 hw_cnn_autoencoder_train.py $1 $2

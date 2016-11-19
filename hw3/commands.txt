@@ -1,0 +1,6 @@
+python3 hw_cnn_self-training_train.py data model_1
+python3 hw_cnn_self-training_test.py data model_1 pred_self.csv
+
+python3 python3 hw_cnn_self-training_train.py data model_1 data model_1
+python3 hw_cnn_self-training_test.py data model_1 pred_auto.csv
+

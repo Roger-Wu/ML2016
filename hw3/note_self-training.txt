@@ -1,0 +1,95 @@
+# exp 1
+
+## model 1
+
+64
+MP
+DR 0.25
+32
+MP
+DR 0.25
+512
+DR 0.5
+
+acc=0.91
+val_acc=0.37
+
+## model 2 0.125
+
+same structure
+
+ext_rate = 0.125
+epo=40
+
+acc=0.90
+val_acc=0.37
+
+vvvvvvvvvvvvvvvvvvv
+## model 2 0.25
+
+same structure
+
+ext_rate = 0.25
+epo=40
+
+acc=0.91
+val_acc=0.39
+^^^^^^^^^^^^^^^^^^^
+
+vvvvvvvvvvvvvvvvvvv
+## model 2 0.3
+
+same structure
+
+epo=27
+
+acc=0.89
+val_acc=0.40
+^^^^^^^^^^^^^^^^^^^
+
+## model 2 0.40
+
+ext_rate = 0.25
+epo=21
+
+acc=0.87
+val_acc=0.38
+
+epo = / X_train_label_pool.shape[0]
+
+
+
+## model 2 0.3 64x64
+
+
+
+
+###
+
+64
+MP
+64
+32
+
+0.40
+
+
+
+64
+64
+MP
+32
+32
+MP
+512
+
+0.38
+
+
+64
+64
+MP
+32
+MP
+
+0.40

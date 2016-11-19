@@ -1,0 +1,497 @@
+# rules
+* more cnn layer, more execution time
+* wider cnn , more execution time
+* more pooling, need more epoch to converge
+
+
+# best config in theory
+not too wide
+can be deep
+fewer pooling (2 is best)
+
+
+# deeper
+
+# good
+
+64
+MP
+64
+MP
+256
+64
+
+epo=200
+acc=0.875
+test=0.39
+
+
+# better
+
+64
+MP
+64
+MP
+256
+128
+
+epo=100
+acc=0.849
+test=0.395
+
+
+# even better
+
+64
+MP
+64
+MP
+512
+256
+128
+
+epo=100
+acc=0.87
+test=0.40
+
+acc 0.5 -> test 0.3
+epo=100
+acc 0.87 -> test 0.40
+# need more time to train
+
+64
+64
+MP
+64
+MP
+512
+256
+128
+
+acc 0.5 -> test 0.3
+
+
+# even even better
+
+64
+MP
+64
+AvgP
+512
+256
+128
+
+acc 0.5 -> test 0.32
+epo=100
+0.9022 -> 0.43
+
+
+# eveven better, need more time,  
+
+64
+MP
+64
+AvgP
+64
+AvgP
+512
+256
+128
+
+acc 0.5 -> test 0.31
+epo=100
+acc 0.6552 -> test 0.4266
+epo=200
+acc 0.77 -> test 0.43
+
++++++++++++++++++++++++++++++++++++++++
+#
+
+64
+MP
+64
+AvgP
+64
+AvgP
+256
+128
+
+epo=25
+acc 0.5 -> test 0.30
+epo=100
+acc 0.69 -> test 0.41
+
+++++++++++++++++++++++++++++++++++++++++
+#
+
+64
+MP
+64
+AvgP
+64
+AvgP, border same
+512
+256
+128
+
+epo=31
+acc 0.5 -> test 0.32
+epo=100
+acc 0.67 -> test 0.40
+
+
+#
+
+64
+MP, border same
+64
+AvgP, border same
+64
+AvgP, border same
+512
+256
+128
+
+epo=32
+acc 0.5 -> test 0.33
+0.41
+
+gggggggggggggggggggggggggggggggggggggggggg
+# 3s, good 0.46
+
+64
+64
+MP, border same
+64
+AvgP, border same
+512
+256
+128
+
+epo=14
+acc 0.5 -> test 0.35
+epo=43
+0.7574 -> 0.45 (unstable)
+epo=67
+0.8580 -> 0.4786 (unstable)
+epo=100
+0.9 -> 0.46
+
+
+gggggggggggggggggggggggggggggggggggggggg
+# 3s, good 0.47
+
+64
+64
+MP
+64
+AvgP, border same
+512
+256
+128
+
+epo=14
+0.5 -> 0.34
+epo=100
+0.91 -> 0.47
+
++++++++++++++++++++++++++++++++++++++++++
+# 4s, not better, maybe need more time
+
+128
+64
+MP
+64
+AvgP, border same
+512
+256
+128
+
+epo 20
+0.5 -> 0.33
+epo 100
+0.85 -> 0.44
+
+ggggggggggggggggggggggggggggggggggggggggggggg
+# 3s, good 0.48
+
+64
+64
+MP
+64
+64
+AvgP, border same
+512
+256
+128
+
+epo 14
+
+epo 100
+0.92 -> 0.48
+
+
+# 3s, not better
+
+64
+64
+MP
+64
+64
+MP
+512
+256
+128
+
+epo 20
+0.5 -> 0.34
+epo 80
+0.8 -> 0.42
+
+
+# without pooling, 6s, not better
+
+64
+64
+64
+64
+512
+256
+128
+
+epo 12
+0.5 -> 0.26
+
+
+# one pooling, 4s, not better
+
+64
+64
+MP
+64
+64
+512
+256
+128
+
+epo 14
+0.5 -> 0.3
+0.8 -> 0.38
+
+ggggggggggggggggggggggggggggggggggggggggggg
+# repeat best, 3s
+
+64
+64
+MP
+64
+64
+APS
+512
+256
+128
+
+epo 17
+0.5 -> 0.35
+epo 43
+0.75 -> 0.44
+epo 83
+0.9 -> 0.475
+
+
+# 128 128, 6s, not better
+
+128
+128
+MP
+64
+64
+AP
+512
+256
+128
+
+epo 15
+0.5 -> 0.34
+0.75 -> 0.41
+
+
+# + 1024, 3-4s
+
+epo 24
+0.5 -> 0.33
+epo 49
+0.75 -> 0.38
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# good model
+
+32
+32
+M
+64
+64
+M
+
+epo=50
+
+result
+	acc=0.96
+	test=0.31
+
+
+# 
+
+32
+32
+M
+D 0.25
+64
+64
+M
+D 0.25
+
+acc=0.96
+test=0.31
+
+
+#
+
+64
+M
+32
+M
+512
+
+acc=0.97
+test=0.35
+
+#
+
+64
+M
+32
+M
+32
+512
+
+acc=0.97
+test=0.34
+
+
+#
+
+64
+32
+MP
+32
+MP
+512
+
+acc=0.96
+test=0.30
+
+
+# good
+
+64
+MP
+32
+MP
+DR 0.5
+512
+
+epo=100
+
+acc=0.95
+test=0.38
+
+
+# good
+
+64
+MP
+32
+MP
+DR 0.5
+512
+
+epo=100
+
+acc=0.95
+test=0.38
+
+vvvvvvvvvvvvvvvvvvvvvvvv
+# very good
+
+64
+MP
+DR 0.5
+32
+MP
+DR 0.5
+512
+DR 0.5
+
+epo=100
+
+acc=0.91
+test=0.40
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+#
+
+64
+MP
+DR 0.25
+32
+MP
+DR 0.25
+512
+DR 0.5
+
+epo=100
+
+acc=0.96
+test=0.35
+
+
+# 
+
+64
+MP
+DR 0.5
+32
+MP
+DR 0.5
+256
+DR 0.5
+
+acc=0.84
+test=0.39
+
+
+
+

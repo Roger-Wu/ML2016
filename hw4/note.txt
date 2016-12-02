@@ -1,0 +1,6 @@
+
+how to process docs.txt:
+	must remove codes:
+		remove lines start with spaces
+
+

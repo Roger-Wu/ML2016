@@ -14,3 +14,8 @@ hw3/model*
 hw4/data*
 hw4/output*
 hw4/model*
+
+*.zip
+
+# ignore all data folders
+data/

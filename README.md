@@ -28,7 +28,7 @@ My source code for the assignments of [professor Hung-Yi Lee's machine learning 
     </td>
     <td>air quality data collected by Central Weather Bureau</td>
     <td>Linear Regression</td>
-    <td>37th in 348 participants</td>
+    <td>Top 11% (37th in 348 participants)</td>
   </tr>
   <tr>
     <td>HW2</td>
@@ -40,7 +40,7 @@ My source code for the assignments of [professor Hung-Yi Lee's machine learning 
     </td>
     <td>4001(train) + 600(test) emails with extracted 57 features for each mail</td>
     <td>Logistic Regression, DNN</td>
-    <td>27th in 276 participants</td>
+    <td>Top 10% (27th in 276 participants)</td>
   </tr>
   <tr>
     <td>HW3</td>
@@ -52,7 +52,7 @@ My source code for the assignments of [professor Hung-Yi Lee's machine learning 
     </td>
     <td>cifar-10 (5,000 labeled images + 45,000 unlabeled images + 10,000 test images)</td>
     <td>CNN, Semi-supervised learning, Autoencoder (Using Keras)</td>
-    <td>121st in 258 participants</td>
+    <td>Top 47% (121st in 258 participants)</td>
   </tr>
   <tr>
     <td>HW4</td>
@@ -75,6 +75,34 @@ My source code for the assignments of [professor Hung-Yi Lee's machine learning 
         Using scikit-learn, gensim
       </ul>
     </td>
-    <td>156st in 263 participants</td>
+    <td>Top 59% (156st in 263 participants)</td>
+  </tr>
+  <tr>
+    <td>Final Project</td>
+    <td>Transfer Learning on Stack Exchange Tags</td> 
+    <td>
+      <a href="https://docs.google.com/presentation/d/1Xe8oa6niPxPZwN0b_qmUGFPJb6K5Gd7wIrvqravvkNM/edit#slide=id.p">Slides</a>
+      <br/>
+      <a href="https://www.kaggle.com/c/transfer-learning-on-stack-exchange-tags">Kaggle</a>
+    </td>
+    <td>
+      <ul>
+        <li>Train: tagged Stack Exchange Questions in 6 domains</li>
+        <li>Test: untagged Stack Exchange Questions in another domain</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Bag-of-Words</li>
+        <li>TF-IDF</li>
+        <li>Latent Semantic Analysis</li>
+        <li>Word Vectors</li>
+        <li>K-Means</li>
+        <li>PCA</li>
+        <li>t-SNE</li>
+      </ul>
+      (Using scikit-learn, Natural Language Toolkit, gensim)
+    </td>
+    <td>Top 59% (156st in 263 participants)</td>
   </tr>
 </table>

@@ -87,8 +87,8 @@ My source code for the assignments of [professor Hung-Yi Lee's machine learning 
     </td>
     <td>
       <ul>
-        <li>Train: tagged Stack Exchange Questions in 6 domains</li>
-        <li>Test: untagged Stack Exchange Questions in another domain</li>
+        <li>Train: Appr. 80,000 tagged Stack Exchange Questions in 6 domains</li>
+        <li>Test: Appr. 80,000 untagged Stack Exchange Questions in another domain</li>
       </ul>
     </td>
     <td>

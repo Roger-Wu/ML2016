@@ -62,7 +62,7 @@ My source code for the assignments of [professor Hung-Yi Lee's machine learning 
       <br/>
       <a href="https://inclass.kaggle.com/c/ml2016-hw4-unsupervised-learning">Kaggle</a>
     </td>
-    <td>StackOverflow documents crawled from the internet</td>
+    <td>20,000 StackOverflow documents crawled from the internet</td>
     <td>
       <ul>
         <li>Bag-of-Words</li>

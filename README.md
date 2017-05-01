@@ -72,8 +72,8 @@ My source code for the assignments of [professor Hung-Yi Lee's machine learning 
         <li>K-Means</li>
         <li>PCA</li>
         <li>t-SNE</li>
-        Using scikit-learn, gensim
       </ul>
+      (Using scikit-learn, gensim)
     </td>
     <td>Top 59% (156th in 263 participants)</td>
   </tr>

@@ -1,6 +1,6 @@
 # ML2016
 
-My source code for the assignments of [professor Hung-Yi Lee's machine learning course in 2016/09 - 2017/01](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML16.html)
+My source code for the assignments of [professor Hung-Yi Lee](http://speech.ee.ntu.edu.tw/~tlkagk/index.html)'s [machine learning course in 2016/09 - 2017/01](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML16.html)
 
 ## Branches
 

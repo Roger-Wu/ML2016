@@ -75,7 +75,7 @@ My source code for the assignments of [professor Hung-Yi Lee's machine learning 
         Using scikit-learn, gensim
       </ul>
     </td>
-    <td>Top 59% (156st in 263 participants)</td>
+    <td>Top 59% (156th in 263 participants)</td>
   </tr>
   <tr>
     <td>Final Project</td>
@@ -103,6 +103,6 @@ My source code for the assignments of [professor Hung-Yi Lee's machine learning 
       </ul>
       (Using scikit-learn, Natural Language Toolkit, gensim)
     </td>
-    <td>Top 59% (156st in 263 participants)</td>
+    <td>Top 30% (114th in 380 participants)</td>
   </tr>
 </table>
